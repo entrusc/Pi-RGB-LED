@@ -4,7 +4,7 @@
 
     <groupId>de.pi3g.pi</groupId>
     <artifactId>pi-rgbled</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Pi RGB-LED</name>
