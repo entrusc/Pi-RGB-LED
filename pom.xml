@@ -26,9 +26,9 @@
     </licenses>
     
     <scm>
-        <connection>scm:git:https://github.com/entrusc/Pi-RGB-LED</connection>
-        <developerConnection>scm:git:https://github.com/entrusc/Pi-RGB-LED</developerConnection>
-        <url>git@github.com/entrusc/Pi-RGB-LED</url>
+        <connection>scm:git:git@github.com:entrusc/Pi-RGB-LED.git</connection>
+        <developerConnection>scm:git:git@github.com:entrusc/Pi-RGB-LED.git</developerConnection>
+        <url>git@github.com:entrusc/Pi-RGB-LED</url>
     </scm>    
     
     <developers>
