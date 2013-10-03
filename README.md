@@ -3,6 +3,17 @@ Pi RGB-LED
 
 A Java library to control RGB-LEDs on the Raspberry PI.
 
+how to use?
+===========
+Pi RGB-LED is now available in the maven central repository. You can use it with maven like this:
+
+    <dependency>
+        <groupId>com.pi3g.pi</groupId>
+        <artifactId>pi-rgbled</artifactId>
+        <version>1.0</version>
+    </dependency>
+
+
 example
 =======
 
@@ -15,8 +26,8 @@ Other RGB-LEDs (that use PWM to controll the brightness of each color) can also 
 a manual PinLayout. Just instantiate the PinLayout class with the appropriate pins for red, green and blue
 and pass them the the RGBLed constructor.
 
-how to build / use?
-===================
+how to build?
+=============
 
 The entire project is build with maven. Just clone the master branch, open the directory in NetBeans and hit run. Or if
 you prefer the command line: 
@@ -25,11 +36,3 @@ you prefer the command line:
 
 should build everything correctly. 
 
-You can then use the library in your Projects like this:
-
-
-    <dependency>
-        <groupId>com.pi3g.pi</groupId>
-        <artifactId>pi-rgbled</artifactId>
-        <version>1.0</version>
-    </dependency>
