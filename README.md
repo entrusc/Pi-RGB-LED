@@ -33,7 +33,7 @@ To control a Dyco RGB LED stripe with e.g. 50 LEDs you can use this library like
     stripe.update();
 
 This will set all LEDs on the stripe to red. In this example GPIO_0 was connected to CLK and GPIO_1 to DATA.
-A dyco led stripe has the following wiring:
+A dyco led stripe has the following connections:
 
 ![ScreenShot](/docs/images/dycowiring.png)
 
